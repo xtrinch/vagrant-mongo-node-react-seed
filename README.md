@@ -23,7 +23,7 @@ polling to watch for changes inside the shared folders, as native watchers didn'
 You should now be able to open the example project inside your host computer's browser by entering the following in your
 browser bar on your host machine:
 
-    http://vagrant's-ip/
+    http://<vagrant's-ip>/
 
 You can find out which ip vagrant is using with:
 
