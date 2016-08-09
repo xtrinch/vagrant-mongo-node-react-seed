@@ -4,7 +4,7 @@ Based on the project seed by Matt Petrie [found here](https://github.com/mattpet
 
 #### Adapted to work with a debian 8.1 opscode base box with vagrant.
 
-All the necessary setup commands for vagrant are located inside config/bootstrap.sh. Note that the box will provision
+All the necessary setup commands for vagrant are located inside `config/bootstrap.sh`. Note that the box will provision
 itself with the script.
 Project uses gulp as its build system, it runs webpack-dev-server as its development server. I have resorted to using
 polling to watch for changes inside the shared folders, as native watchers didn't work.
