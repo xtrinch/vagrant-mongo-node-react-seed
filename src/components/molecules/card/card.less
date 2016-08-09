@@ -1,0 +1,19 @@
+@import '../../../stylesheets/common';
+
+.card {
+  display: flex;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 2%;
+  z-index: 100;
+  margin-top: 4%;
+  background-color: @card-background;
+  box-shadow: @drop-shadow;
+  @media @desktop {
+    width: 60%;
+  }
+  @media @tablet {
+    max-width: none;
+    width: 96%;
+  }
+}
