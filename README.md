@@ -1,6 +1,6 @@
 # Vagrant / MongoDB / Nodejs / React project seed
 
-Based on the project seed [found here](https://github.com/mattpetrie/React-Node-Project-Seed).
+Based on the project seed by Matt Petrie [found here](https://github.com/mattpetrie/React-Node-Project-Seed).
 
 #### Adapted to work with a debian 8.1 opscode base box with vagrant.
 
